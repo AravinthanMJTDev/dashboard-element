@@ -6,7 +6,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-around p-24">
-      <div className="w-60  flex flex-col items-center text-center justify-around  box-content  bg-gray-300 rounded-[25px]">
+      <div className="w-60  flex flex-col items-center text-center justify-around  box-content  bg-gray-300 rounded-[25px] scale-150">
         <div className="bg-red-500 rounded-full text-white py-2 px-3 m-2">
           {percent}%
         </div>
